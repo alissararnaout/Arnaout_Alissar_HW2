@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+#siteContainer
+{
+margin: 0 auto;
+width: 960px;
+}
+
+#mainContent
+{
+text-align: center;
+}
+
+#mainContent h2
+{
+	font-family: 'Rock Salt', cursive;
+	font-size: 50px;
+	color: black;
+	margin-top: 40px;
+	letter-spacing: 3px;
+}
+
+#mainContent img
+{
+	-webkit-transition: -webkit-transform .7s ease-in-out;
+	transition: transform .7s ease-in-out;
+	margin-top: 50px;
+}
+
+#mainContent img:hover
+{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+h3
+{
+font-family: 'Rock Salt', cursive;
+font-size: 28px;
+letter-spacing: 1.5px;
+}
+
+h4
+{
+	font-family: monospace, helvetica, sans-serif;
+	font-size: 16px;
+	color: #8a8a8a;
+}
+
+#mainFooter
+{
+	float: right;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#mainFooter p
+{
+	font-family: monospace, helvetica, sans-serif;
+	color: #8a8a8a;
+	font-size: 13px;
+}
